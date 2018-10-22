@@ -7,5 +7,7 @@ namespace ProjectAwesome.API.Models.Data
         public DataContext(DbContextOptions<DataContext> optoins) : base (optoins) {}
 
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
